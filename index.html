@@ -3,9 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta
       name="description"
-      content="A web_project_coffeeshop oferece cafés especiais, ambiente acolhedor e doces artesanais. Venha experimentar o sabor da tradição em um lugar moderno."
+      content="A coffeeshop Triple Peaks oferece cafés especiais, ambiente acolhedor para estudos e receitas exclusivas para o seu lanche."
+    />
+    <meta name="author" content="Cristian Ohara" />
+    <meta
+      name="keywords"
+      content="café, coffeeshop, triple peaks, receitas de café, aeropress, prensa francesa"
+    />
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,101 +31,132 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <body>
-      <div class="page">
-        <header class="header">
-          <nav class="nav" id="nav">
-            <img
-              src="./images/logo_coffeeshop_dark.svg"
-              alt="Logotipo da coffeeshop triple expresso"
-              class="nav__logo"
-            />
-            <ul class="nav__links">
-              <li>
-                <a class="nav__link" href="#recipes">Receitas</a>
-              </li>
-              <li>
-                <a class="nav__link" href="#reservation">Reservar uma mesa</a>
-              </li>
-              <li>
-                <a class="nav__link" href="#footer">Contatos</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="header__content">
-            <div>
-              <h1 class="header__title">
-                Café especial na biblioteca Tiple Peaks
-              </h1>
-              <p class="header__description">
-                Esta é a nossa zona de estudo! Temos aquele cafezinho para
-                energizar voce e as vibrações aconchegantes para soltar a
-                criatividade.
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav" id="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#recipes">Receitas</a></li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li><a class="nav__link" href="#footer">Contatos</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__content">
+          <h1 class="header__title">
+            <span class="span-accent">Café especial</span> na biblioteca Triple
+            Peaks
+          </h1>
+          <p class="header__description">
+            Esta é a nossa zona de estudo! Temos aquele cafezinho para energizar
+            voce e as vibrações aconchegantes para soltar a criatividade.
+          </p>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Interior do café"
+            class="header__image"
+          />
+        </div>
+
+        <div class="header__footer">
+          <div class="header__column header__column_content_hours">
+            <p class="header__paragraph">Horários:</p>
+            <p class="header__paragraph">Segunda á Sexta (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábado a Domingo (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            <span class="span-color"
+              >Confira algumas receitas que coletamos para o seu lanchinho
+              caseiro:</span
+            >
+          </p>
+
+          <div class="recipes__videos recipes__videos-container">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="YouTube video player"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Receita Aeropress</span>
+                <span>~5 min</span>
               </p>
             </div>
-            <img
-              src="./images/inside_coffee_shop.png"
-              alt="Ilustração 'Dentro do café'"
-              class="header__image"
-            />
-            <div class="header__footer">
-              <p class="header__address">
-                Horários: Segunda á Sexta (10:00 - 19:00)
+
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="YouTube video player"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Receita de Prensa Francesa</span>
+                <span>~15 min</span>
               </p>
-              <p class="header__address">Sábado a Domingo (11:00 - 18:00)</p>
             </div>
           </div>
-        </header>
-        <main class="content">
-          <section class="recipes" id="recipes">
-            <h2 class="recipes__title">Receitas</h2>
-            <p class="recipes__subtitle">
-              Confira algumas receitas que coletamos para o seu lanchinho
-              caseiro:</p>
-          </section>
-          <section class="reservation" id="reservation"><h2 class="reservation__title">Reserve a sua mesa</h2> </section>
+        </section>
 
-        </main>
-          <footer class="footer" id="footer">
-            <div class="footer__columns">
-              <div class="footer__column footer__column_content_logo">
-                <img
-                  class="footer__logo"
-                  src="./images/logo_coffeeshop_light.svg"
-                  alt="logo_coffeeshop_light"
-                />
-              </div>
-              <div class="footer__column footer__column_content_social">
-                <h3 class="footer__column-heading">Mídia Social</h3>
-                <ul class="footer__list">
-                  <li class="footer__list-item">
-                    <a href="#" class="footer__column-link">
-                      <img
-                        class="footer__social-icon"
-                        src="./images/facebook_white.svg"
-                        alt="icone do facebook"
-                      />Facebook</a
-                    >
-                  </li>
-                  <li class="footer__list-item">
-                    <a href="#" class="footer__column-link"
-                      ><img
-                        class="footer__social-icon"
-                        src="./images/instagram_white.svg"
-                        alt="icone do Instagram"
-                      />
-                      Instagram</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <p class="footer__copyright">&copy; 2024 cristian ohara</p>
-              </div>
-            </div>
-          </footer>
+        <section class="reservation" id="reservation"></section>
+      </main>
 
-      </div>
-
-    </body>
-  </html>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_logo">
+            <img
+              class="footer__logo"
+              src="./images/logo_coffeeshop_light.svg"
+              alt="logo light"
+            />
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Mídia Social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="facebook"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="instagram"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__copyright">&copy; 2024 cristian ohara</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
