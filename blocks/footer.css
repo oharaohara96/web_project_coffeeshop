@@ -1,49 +1,45 @@
 .footer {
   padding: 60px 80px;
-  background-color: #0a2849; /* Azul escuro do fundo */
+  background-color: #0a2849;
   color: white;
   position: relative;
-  overflow: hidden; /* Garante que o círculo não saia do footer */
+  overflow: hidden;
 }
 
-/* Container principal para isolar o conteúdo do círculo */
 .footer__content {
   position: relative;
   z-index: 1;
 }
 
-/* O círculo azul da imagem */
 .footer__circle {
   position: absolute;
   width: 340px;
   height: 340px;
-  background-color: #2f80ed; /* Azul claro do círculo */
+  background-color: #2f80ed;
   border-radius: 50%;
-  top: -150px; /* Ajuste para ficar cortado no topo */
-  left: -150px; /* Ajuste para ficar cortado na lateral */
+  top: -150px;
+  left: -150px;
   z-index: 0;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Alinhado ao topo conforme a imagem */
-  margin-bottom: 80px; /* Espaço para o copyright abaixo */
+  align-items: flex-start;
+  margin-bottom: 80px;
 }
 
-/* Ajuste do Logo para ficar sobre o círculo */
 .footer__logo {
   position: relative;
   z-index: 2;
   width: 120px;
 }
 
-/* Lista vertical de redes sociais */
 .footer__list {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-direction: column; /* Coluna, como na imagem */
+  flex-direction: column;
   gap: 16px;
 }
 
