@@ -10,22 +10,16 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  padding: 100px 0;
-  padding-top: 100px;
-  padding-bottom: 120px;
+  padding: 100px 0 120px;
 }
 .reservation__title {
-  margin-top: 100px;
   font-family: inter;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-bottom: 80px;
   text-align: center;
-  margin: 0 0 80px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0 auto 80px;
 }
 
 .reservation__form {
