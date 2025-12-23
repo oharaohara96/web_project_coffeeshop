@@ -37,3 +37,13 @@
   font-weight: 500;
   line-height: 30px;
 }
+.content {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 215px;
+  display: flex;
+  flex-direction: column;
+}
