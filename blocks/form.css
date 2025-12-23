@@ -1,10 +1,6 @@
 .form__input {
   border-radius: 2px;
 }
-.reservation__form {
-  max-width: 470px;
-  width: 100%;
-}
 
 .form__fieldset {
   border: none;

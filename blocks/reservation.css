@@ -25,9 +25,7 @@
   text-align: center;
   margin: 0 0 80px;
 }
-.form__input {
-  border-radius: 2px;
-}
+
 .reservation__form {
   max-width: 470px;
   width: 100%;

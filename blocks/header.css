@@ -30,7 +30,7 @@
   letter-spacing: -1px;
 }
 
-.span-accent {
+.header__span-accent {
   color: #2f80ed;
   font-style: italic;
   display: block;
@@ -63,6 +63,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   color: #838383;
+  margin-top: auto;
 }
 
 .header__column-heading {
